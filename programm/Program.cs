@@ -10,7 +10,7 @@ string[] a ={ "1234",
 
 int number = 3; // задано число 3 из условия
 
-
+PrintArray(GetNewArray(a, number));
 
 string[] GetNewArray(string[] a, int number)
 {
