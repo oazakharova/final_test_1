@@ -7,9 +7,7 @@ string[] a ={ "1234",
                "computer science",
                "123"
                }; // задан массив рандомных строк
-
 int number = 3; // задано число 3 из условия
-
 PrintArray(GetNewArray(a, number));
 
 string[] GetNewArray(string[] a, int number)
