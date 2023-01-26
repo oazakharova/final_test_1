@@ -10,3 +10,19 @@ string[] a ={ "1234",
 
 int number = 3; // задано число 3 из условия
 
+
+
+string[] GetNewArray(string[] a, int number)
+{
+    string[] b = new string[a.Length];
+    int j = 0;
+    for (int i = 0; i < a.Length; i++)
+    {
+        if (a[i].Length <= number)
+        {
+            b[j] = a[i];
+            j++;
+        }
+    }
+    return b;
+}
