@@ -26,3 +26,13 @@ string[] GetNewArray(string[] a, int number)
     }
     return b;
 }
+
+void PrintArray(string[] b)
+{
+    for (int i = 0; i < b.Length; i++)
+    {
+        Console.Write($"{b[i]} ");
+    }
+}
+
+
